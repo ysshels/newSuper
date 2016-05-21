@@ -32,7 +32,7 @@
 }
 #navMenu li a.current,#navMenu li a:hover {
 	color:#FFF;
-	background:url(../images/navbg2.png) center no-repeat
+	background:url(../img/header/navbg2.png) center no-repeat
 }
 /*-------- 下拉菜单 --------------*/
 .dropMenu {

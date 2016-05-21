@@ -1,0 +1,93 @@
+/*导航菜单*/
+#nav {
+	width:980px;
+	margin:0px auto;
+	height:48px;
+	line-height:48px;
+	display:block;
+	overflow:hidden;
+}
+#navMenu ul {
+	width:980px;
+	float:left;
+	height:33px;
+}
+#navMenu li {
+	float:left;
+	font-size:14px;
+
+}
+#navMenu li a {
+	color:#333;
+	text-decoration:none;
+	width:140px;
+	height:48px;
+	line-height:48px;
+	text-align:center;
+	display:block;
+	font-size:14px;
+}
+#navMenu li a.last {
+	width:100px;
+}
+#navMenu li a.current,#navMenu li a:hover {
+	color:#FFF;
+	background:url(../images/navbg2.png) center no-repeat
+}
+/*-------- 下拉菜单 --------------*/
+.dropMenu {
+	position:absolute;
+	top:0;
+	z-index:1000000;
+	visibility:hidden;
+	margin-top:-2px;
+	border:1px solid #ad000a;
+	border-top:0;
+	background-color:#ffe5e7;
+	padding:4px;
+	width:200px;
+}
+.dropMenu li {
+	float:left;
+	width:100px;
+	height:32px;
+	line-height:32px;
+	background:none;
+}
+.dropMenu li a {
+	display:block;
+	padding:5px 0 5px 12px;
+	color:#333;
+}
+.dropMenu a:hover {
+	text-decoration:underline;
+	color:#0068b7;
+}
+.dropMenu1 {
+	position:absolute;
+	top:0;
+	z-index:100000;
+	visibility:hidden;
+	margin-top:-2px;
+	border:1px solid #ad000a;
+	border-top:0;
+	background-color:#ffe5e7;
+	padding:4px;
+	width:300px;
+}
+.dropMenu1 li {
+	float:left;
+	width:150px;
+	height:32px;
+	line-height:32px;
+	background:none;
+}
+.dropMenu1 li a {
+	display:block;
+	padding:5px 0 5px 12px;
+	color:#333;
+}
+.dropMenu1 a:hover {
+	text-decoration:underline;
+	color:#ad000a;
+}

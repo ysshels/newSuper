@@ -10,13 +10,13 @@ img {border:0;behavior:url("iepngfix.htc");}
 .fr{ float:right;}
 input{ border:1px solid #CCC;}
 a { text-decoration: none; color:#666666;}
-a:hover  { text-decoration:none; color: #ad000a;}
+a:hover  { text-decoration:none; color: #3bb3c3;}
 a:active {text-decoration: none; color: #666666;}
 a::focus {-moz-outline-style:none;}
 
 .f_14{ font-size:14px;}
 .white{ color:#FFFFFF;}
-.red{ color:#F00}
+.red{ color:#3bb3c3}
 .hidden { display: none; }
 .block { display: block; }
 .m_33{ margin-left:33px;}
@@ -48,7 +48,7 @@ a::focus {-moz-outline-style:none;}
 
 /*公司简介*/
 .about{ width:311px; height:204px;}
-.about1{ height:58px; background:url(../img/header/about1.jpg) no-repeat;}
+.about1{ height:58px; background:url(../img/header/about2.png) no-repeat;}
 .about1a{ padding-left:10px; font-size:16px; color:#fff; line-height:42px;}
 .more{ padding-right:20px;}
 .more a{ color:#fff; line-height:42px;}
@@ -56,15 +56,15 @@ a::focus {-moz-outline-style:none;}
 .about2{ width:311px; height:146px;}
 .about2a{ margin-top:11px;}
 .about2b{ width:154px; height:146px; padding-right:3px;}
-.about2b a{color: #ad000a;}
+.about2b a{color: #3bb3c3;}
 .products2b{ width:175px; height:146px; padding-right:5px;}
-.products2b a{color: #ad000a;}
+.products2b a{color: #3bb3c3;}
 /*友情链接*/
 .links{ width:1000px; height:auto; margin:30px auto 0; padding:0; background:#f1f1f1;}
 .links1{ height:10px;}
 .links2{ height:auto; line-height:30px; border-left:1px solid #d3d3d3;border-right:1px solid #d3d3d3; padding:0 10px;}
 .links2 a{ line-height:30px;}
-.links2 span{ color: #ad000a; font-weight:bold; line-height:30px;}
+.links2 span{ color: #3bb3c3; font-weight:bold; line-height:30px;}
 .links3{ height:8px;}
 
 
@@ -74,7 +74,7 @@ a::focus {-moz-outline-style:none;}
 
 
 /*footer*/
-#footer{ width:100%; height:88px; margin:0 auto; padding-top:30px; background:url(../img/header/footerbg.jpg) repeat; text-align:center; color:#FFF;}
+#footer{ width:100%; height:88px; margin:0 auto; padding-top:30px; background:url(../img/header/footerbg1.png) repeat; text-align:center; color:#FFF;}
 #footer a{ color:#FFF;}
 
 
@@ -101,7 +101,7 @@ a::focus {-moz-outline-style:none;}
 
 
 .left2{ width:185px; height:auto; margin-top:26px;}
-.left2a{ font-size:18px; padding-left:5px; color:#ad000a;}
+.left2a{ font-size:18px; padding-left:5px; color:#3bb3c3;}
 .left2b{ margin-top:5px;}
 .left2c{ margin-top:10px;}
 
@@ -120,12 +120,12 @@ a::focus {-moz-outline-style:none;}
 .newsn .nleft img{ width:149px; height:107px; border:1px solid #CCC; padding:3px;}
 .newsn .nright{ width:500px; height:115px; float:right; padding-right:20px;}
 .newsn .nright .nright1 { height:30px;}
-.newsn .nright .nright1 a{ line-height:30px; font-size:14px; font-weight:bold; color:#ad000a;}
+.newsn .nright .nright1 a{ line-height:30px; font-size:14px; font-weight:bold; color:#3bb3c3;}
 .newsn .nright .nright2{ height:48px; line-height:24px; overflow:hidden;}
-.newsn .nright .nright3{ height:30px; line-height:30px;  font-size:14px; color:#ad000a; text-transform:capitalize;}
-.newsn .nright .nright3 a{ line-height:30px;  font-size:14px; color:#ad000a; text-transform:capitalize;}
+.newsn .nright .nright3{ height:30px; line-height:30px;  font-size:14px; color:#3bb3c3; text-transform:capitalize;}
+.newsn .nright .nright3 a{ line-height:30px;  font-size:14px; color:#3bb3c3; text-transform:capitalize;}
 
-.newsn1{ height:30px; font-size:16px; line-height:30px; color:#ad000a; text-align:center;}
+.newsn1{ height:30px; font-size:16px; line-height:30px; color:#3bb3c3; text-align:center;}
 .newsn2{ height:30px; border-bottom:1px dotted #cccccc; line-height:30px; text-align:center; margin-top:10px;}
 .newsn3{ height:auto; margin-top:10px;}
 
@@ -145,7 +145,7 @@ a::focus {-moz-outline-style:none;}
 .productsn4{ width:700px; height:auto; margin-top:20px;}
 #tab {overflow:hidden;zoom:1;background:#eee;border-top:2px solid #999999; border-bottom:1px solid #dfdfdf; border-left:1px solid #dfdfdf; border-right:1px solid #dfdfdf;}
 #tab li {float:left;color:#333;height:30px;	cursor:pointer;	line-height:30px; width:120px; margin:0; font-size:14px;}
-#tab li.tcurrent {color:#fff;background:#ad000a;}
+#tab li.tcurrent {color:#fff;background:#3bb3c3;}
 #content {border:1px solid #dfdfdf;border-top:none;}
 #content ul {line-height:24px;display:none;padding:10px; background:#FFF; font-size:14px;}
 
@@ -154,7 +154,7 @@ a::focus {-moz-outline-style:none;}
 .job{ width:700px; height:auto;}
 .job td{ font-size:14px}
 .job td a{ font-size:14px}
-.job .yingpin a{ font-size:14px; color:#ad000a; text-decoration:underline;}
+.job .yingpin a{ font-size:14px; color:#3bb3c3; text-decoration:underline;}
 .job3{ font-size:14px; margin-top:10px;}
 .job3 img{ margin-top:20px; margin-left:600px;}
 

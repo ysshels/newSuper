@@ -32,7 +32,7 @@
 }
 #navMenu li a.current,#navMenu li a:hover {
 	color:#d5f6f8;
-	background:url(../img/header/nav7.png) center no-repeat
+	background:url(../img/header/nav3.png) center no-repeat
 }
 /*-------- 下拉菜单 --------------*/
 .dropMenu {
@@ -41,7 +41,7 @@
 	z-index:1000000;
 	visibility:hidden;
 	margin-top:-2px;
-	border:1px solid #3bb3c3;
+	border:1px solid #1390fc;
 	border-top:0;
 	background-color:#d5f6f8;
 	padding:4px;
@@ -69,7 +69,7 @@
 	z-index:100000;
 	visibility:hidden;
 	margin-top:-2px;
-	border:1px solid #3bb3c3;
+	border:1px solid #1390fc;
 	border-top:0;
 	background-color:#d5f6f8;
 	padding:4px;

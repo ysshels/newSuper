@@ -1,4 +1,5 @@
 /*公用*/
+/*http://www.aotto.cn/views/default/images/wrapper.jpg*/
 TD { LINE-HEIGHT: 170%; WORD-BREAK: normal}
 * {margin:0;padding:0; font-family:"微软雅黑", Arial, Helvetica, sans-serif; font-size:12px; color:#666666; -webkit-text-size-adjust:none; }
 html, body, ul, li, a, span, p,h1,h2 {list-style:none; line-height:24px; -webkit-text-size-adjust:none; font-weight:normal;}
@@ -79,16 +80,16 @@ a::focus {-moz-outline-style:none;}
 
 
 /*内页banner*/
-#bannern{ width:100%; height:183px; margin:0 auto; padding:0; background:url(../images/bannern.jpg) center no-repeat; z-index:0;}
+#bannern{ width:100%; height:183px; margin:0 auto; padding:0; background:url(../img/banner8.jpg) center no-repeat; z-index:0;}
 .bannern{ width:980px; height:50px; margin:0 auto; padding-top:50px;}
-.bannern1{ font-size:36px; padding-right:20px; line-height:50px; background:url(../images/bannern1.png) right center repeat-y; color:#FFF}
+.bannern1{ font-size:36px; padding-right:20px; line-height:50px; background:url(../img/banner8.jpg) right center repeat-y; color:#1390fc}
 .bannern2{ padding-left:20px;}
-.bannern2 h1{ color:#FFF; font-size:18px;}
-.bannern2 h2{ color:#FFF; font-size:14px;}
+.bannern2 h1{ color:#1390fc; font-size:18px;}
+.bannern2 h2{ color:#1390fc; font-size:14px;}
 
 
-#wrapper{ width:100%; height:auto; margin:0 auto; padding:0; background:#FFF url(../images/wrapper.jpg) top repeat-x;}
-.wrappern{ width:940px; height:auto; margin:0 auto; padding:0 30px 50px; background:url(../images/wrappern.png) repeat-y}
+#wrapper{ width:100%; height:auto; margin:0 auto; padding:0; background:#FFF url(../img/news/wrapper.jpg) top repeat-x;}
+.wrappern{ width:940px; height:auto; margin:0 auto; padding:0 30px 50px; background:url(../img/news/wrappern.png) repeat-y}
 
 /*内页左侧*/
 .left{ width:185px; height:auto; float:left;}

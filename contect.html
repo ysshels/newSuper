@@ -27,14 +27,14 @@
 <!--头部 start-->
 <div id="header">
     <div class="headerm">
-        <div class="logo fl"><a href="/"><img src="/views/default/images/logo.png" /></a></div>
+        <div class="logo fl"><a href="/"><img src="static/img/szm1.png" /></a></div>
         <div class="headermr fr">
             <div class="search fr">
                 <form id="SearchForm" name="SearchForm" method="Get" action="/index.php?c=content&a=search"  onSubmit="return search_post()">
                     <input class="search1" name="kw" id="SearchKey"  type="text" value="请输入关键词" onmouseover="this.style.border='0'" onmouseout="this.style.borderColor=''" onFocus="if (value =='请输入关键词'){value =''}" onBlur="if (value ==''){value='请输入关键词'}" />
                     <input name="c" type="hidden" value="content" />
                     <input name="a" type="hidden" value="search" />
-                    <input type="image" class="inputButton" name="Submit1" src="/views/default/images/search2.jpg" align="absmiddle" style="width:21px; height:16px; border:none; margin-top:5px; margin-right:12px; float:right; outline:none;"  onClick="return search_post()" />
+                    <input type="image" class="inputButton" name="Submit1" src="static/img/search2.jpg" align="absmiddle" style="width:21px; height:16px; border:none; margin-top:5px; margin-right:12px; float:right; outline:none;"  onClick="return search_post()" />
                 </form>
             </div>
             <div class="lan fr"><a href="/">中文</a> | <a href="en">ENGLISH</a></div>
@@ -46,48 +46,30 @@
 <div id="menui">
     <div id="nav">
         <ul id="navMenu">
-            <li><a  href='/'>首页</a></li>
-            <li><a href='/index.php?c=content&a=list&catid=10' rel='dropmenu1' >关于奥图</a></li>
-            <li><a href='/index.php?c=content&a=list&catid=208' rel='dropmenu2' >新闻资讯</a></li>
-            <li><a href='/index.php?c=content&a=list&catid=184' rel='dropmenu3' >产品中心</a></li>
-            <li><a href='/index.php?c=content&a=list&catid=183' rel='dropmenu4' >成功案例</a></li>
-            <li><a href='/index.php?c=content&a=list&catid=240' rel='dropmenu5' >人才招聘</a></li>
-            <li><a href='/index.php?c=content&a=list&catid=193' rel='dropmenu6' class="current">联系我们</a></li>
+            <li><a class="current" href=''>首页</a></li>
+            <li><a href='' rel='dropmenu1' >公司概况</a></li>
+            <li><a href='' rel='dropmenu3' >产品中心</a></li>
+            <li><a href='' rel='dropmenu4' >成功案例</a></li>
+            <li><a href='' rel='dropmenu5' >人才招聘</a></li>
+            <li><a href='' rel='dropmenu6' >联系我们</a></li>
         </ul>
     </div>
     <ul id="dropmenu1" class="dropMenu">
-        <li><a href="/index.php?c=content&a=list&catid=11">公司简介</a></li>
-        <li><a href="/index.php?c=content&a=list&catid=167">企业文化</a></li>
-        <li><a href="/index.php?c=content&a=list&catid=211">合作伙伴</a></li>
-        <li><a href="/index.php?c=content&a=list&catid=80">公司荣誉</a></li>
-        <li><a href="/index.php?c=content&a=list&catid=212">质量体系认证</a></li>
-    </ul>
-    <ul id="dropmenu2" class="dropMenu">
-        <li><a href="/index.php?c=content&a=list&catid=209">公司新闻</a></li>
-        <li><a href="/index.php?c=content&a=list&catid=210">行业新闻</a></li>
+        <li><a href="">公司简介</a></li>
+        <li><a href="">企业文化</a></li>
+        <li><a href="">合作伙伴</a></li>
     </ul>
     <ul id="dropmenu3" class="dropMenu1">
-        <li><a href="/index.php?c=content&a=list&catid=185">冲压自动化系统集成</a></li>
-        <li><a href="/index.php?c=content&a=list&catid=186">冲压自动化线模块单元</a></li>
-        <li><a href="/index.php?c=content&a=list&catid=187">冲压自动化线辅机</a></li>
-        <li><a href="/index.php?c=content&a=list&catid=215">板料清洗机</a></li>
-        <li><a href="/index.php?c=content&a=list&catid=214">板料涂油机</a></li>
-        <li><a href="/index.php?c=content&a=list&catid=213">垛料翻转机</a></li>
-        <li><a href="/index.php?c=content&a=list&catid=216">电动无轨运输车</a></li>
-        <li><a href="/index.php?c=content&a=list&catid=219">OCTOPUS端拾器</a></li>
-        <li><a href="/index.php?c=content&a=list&catid=217">自动化线防护工程</a></li>
-        <li><a href="/index.php?c=content&a=list&catid=218">机械手自动化应用</a></li>
-        <li><a href="/index.php?c=content&a=list&catid=224">专机自动化上下料系统</a></li>
-        <li><a href="/index.php?c=content&a=list&catid=225">汽车焊装自动化线</a></li>
-        <li><a href="/index.php?c=content&a=list&catid=238">冲压线搬迁改造</a></li>
-        <li><a href="/index.php?c=content&a=list&catid=227">压力机维修改造</a></li>
+        <li><a href="">产品分类</a></li>
+        <li><a href="">品牌目录</a></li>
+        <li><a href="">维修改造项目</a></li>
     </ul>
     <ul id="dropmenu5" class="dropMenu">
-        <li><a href="/index.php?c=content&a=list&catid=241">招聘职位</a></li>
-        <li><a href="/index.php?c=content&a=list&catid=239">用人理念</a></li>
+        <li><a href="">招聘职位</a></li>
+        <li><a href="">用人理念</a></li>
     </ul>
     <ul id="dropmenu6" class="dropMenu">
-        <li><a href="/index.php?c=content&a=list&catid=114">联系方式</a></li>
+        <li><a href="">联系方式</a></li>
         <li><a href="index.php?c=form&amp;a=post&amp;modelid=11&amp;cid=0">在线留言</a></li>
     </ul>
     <script type="text/javascript">cssdropdown.startchrome("navMenu")</script>
@@ -122,12 +104,12 @@
                     传真：0531-86521797<br />
                     邮箱：aottohr@163.com<br />
                     地址：济南市经济开发区华德路355号</div>
-                <div class="left2c"><img src="/views/default/images/map.jpg" /></div>
+                <div class="left2c"><img src="static/img/news/map.jpg" /></div>
             </div>
         </div>
         <div class="right">
             <div class="right1">当前位置： <a  href="/">首 页</a> &gt; <a href="/index.php?c=content&a=list&catid=193" title="联系我们">联系我们</a> </div>
-            <div class="right2"><img src="uploadfiles/image/201505/21.jpg" /></div>
+            <div class="right2"><img src="static/img/contect/21.jpg" /></div>
             <div class="right3">
                 <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
                 <div class="contactus">

@@ -24,10 +24,11 @@ a::focus {-moz-outline-style:none;}
 
 
 
+
 /*头部*/
 #header{ width:100%; height:98px; margin:0 auto; padding:0; background:url(../img/header/headerbg.jpg) repeat-x;}
 .headerm{ width:1000px; height:98px; margin:0 auto; padding:0;}
-.logo{ width:472px; height:32px; margin-top:36px;}
+.logo{ width:472px; height:32px;margin-top: 5px }
 .headermr{ width:220px; height:82px; margin-top:16px;}
 .search{ width:173px; height:25px; background:url(../img/header/searchbg.jpg) no-repeat;}
 .search1{ width:120px; height:25px; padding-left:10px; float:left; line-height:25px; color:#999999; background:none; border:none; outline:none;}
